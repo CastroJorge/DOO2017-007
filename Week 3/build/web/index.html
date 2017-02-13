@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Book Store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <form action="CrearLibro">
+
+    <!-- Aqui los campos del formulario -->
+    <h1> Agregar nuevo libro </h1>
+         <p> Información general</p> <br /> <br />
+         <label>Nombre:</label> <input type="text" name="name" value=""/> <br />
+         <label>Precio: <input type="text" name="precio" value=""/> <br />
+    <!-- Es necesario que los campos del formulario lleven una propiedad name. La cual será la variable a recuperar en el back-end -->
+        <label>ISBN:</label> <input type="text" name="isbn" /> <br />
+        <label>Fecha de
+        Publicacion:</label> <input type="text" name="fecha" value=""/> <br />
+        
+        <p> Información del género </p> <br />
+        <label>Género:</label> <select name="genero"> <option>Drama</option> <option>Terror</option> <option>Suspenso</option> <option>Fantasia</option> <option>Ciencia Ficcion</option></select>
+        
+        <p> Información de Publicación </p> <br />
+        <label>Editorial:</label> <input type="text" name="editorial" value=""/> <br />
+        <label>Autor:</label> <input type="text" name="autor" value=""/> <br />
+        
+        <input type="submit" name="Guardar" class="btn"/>
+</form>
+    </body>
+</html>

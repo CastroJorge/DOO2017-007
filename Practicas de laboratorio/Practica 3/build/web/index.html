@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1> Registro </h1>
+        <form action = Registro method="POST"/>
+                 Usuario: <input type="text" name="usuario"/><br><br>
+                Contraseña: <input type="password" name="contraseña"/><br><br>
+                Email: <input type="text" name="email"/><br><br>
+                Mes de nacimiento: <select name="mes">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+                <option value="Enero" selected>Enero</option>
+                </select><br><br>
+                Sexo:
+                <br>
+                <input type="radio" name="genero" value="Masculino" checked> Masculino<br>
+                <input type="radio" name="genero" value="Femenino"> Femenino<br>
+                <input type="checkbox" name="edad" value="18"> Soy mayor de edad<br><br>
+                Acerca de mi: <br><textarea name="mensaje" rows="5" cols="15">
+                </textarea><br><br>
+                <input type="reset" name="Limpiar" class="btn"/>
+                <input type="submit" name="Enviar" class="btn"/>                
+    </form>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comentar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1> Agregar comentario </h1>
+        <form method="POST" action="ComentariosControlador">
+            Nombre: <input type="text" value="" name="nombre" placeholder="inserte su nombre"><br><br>
+            
+            Comentario:<br>
+            <textarea rows="4" cols="8" name="comentario"></textarea><br><br>
+            <input type="submit">
+            <input type="hidden" name="action" value="comentar">
+        </form>
+    </body>
+</html>

@@ -1,6 +1,3 @@
-
-
-
 <%@page import="java.util.List"%>
 <%@page import="films.FilmsPOJO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -20,7 +20,6 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author Juan José
  */
 public class FilmsControlador extends HttpServlet {
 
